@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Genos:wght@300&family=Inter:wght@200&display=swap');
 @import url('https://fonts.cdnfonts.com/css/geneva');
 
+html {
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +21,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 20%;
+    padding: 30px 13%;
+    /* position: fixed; */
+
 }
 
 .logo{
@@ -80,6 +86,7 @@ header{
     display: flex;
     margin: 100px 0px;
     height: 580px;
+    background-color: #39563F;
 }
 
 
@@ -125,4 +132,55 @@ header{
     width: 580px;
     height: 580px;
     border-radius: 50%;   
+}
+
+.second-page{
+    display: flex;
+    margin: 100px 0px;
+    width: 100%;
+    height: 580px;
+}
+
+.second-page-left{
+    background-color: #d1d1d1;
+    padding: 100px;
+    padding-left: 90px;
+    /* width: 58%; */
+    width: 100%;
+}
+
+.second-page-left h3{
+    background-color: #d1d1d1;
+    color:#39563F;
+    font-family: Geneva;
+    font-size: 120px;
+}
+
+.second-page-left h4{
+    background-color: #d1d1d1;
+    font-family: Geneva;
+    font-weight:bold;
+    font-size: 20px;
+    margin: 12px 0px;
+}
+
+.second-page-left p{
+    background-color: #d1d1d1;
+    font-family: Geneva;
+    width: 60%;
+    margin-bottom: 12px;
+    line-height: 150%;
+}
+
+.second-page-left button{
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    border-radius: 120px;
+}
+
+.second-page-left button:hover{
+    background-color: #d1d1d1;
+    color: #39563F;
 }
