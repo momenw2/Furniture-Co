@@ -26,6 +26,10 @@ header{
 
 }
 
+header button a{
+    background-color:#162318 ;
+}
+
 .logo{
     color: #FFF;
     font-family: Genos;
@@ -43,7 +47,6 @@ header{
 .nav-ul li{
     display: inline;
     padding: 0px 20px;
-
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
@@ -215,7 +218,6 @@ header{
     background-color: #d1d1d1;
     margin: 120px 25px;
     border-radius: 12px;
-
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -246,4 +248,65 @@ header{
     color: rgb(26, 26, 26);
     font-family: Geneva;
     margin-top: 20px;
+}
+
+.fourth-page{
+    background-color: #d1d1d1;
+
+    margin: 50px 0px;
+    width: 100%;
+    height: 530px;
+}
+
+.fourthPageContainer{
+    background-color: #d1d1d1;
+    display: flex;
+    height: 90%;
+}
+
+.fourthPageContainer div{
+    width: 25%;
+    background-color: #d1d1d1;
+    margin: 120px 25px;
+    border-radius: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    
+}
+
+.fourthPageContainer img{
+    background-color: #d1d1d1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.fourthPageContainer div h4{
+    font-family: Geneva;
+    background-color: #d1d1d1;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.fourthPageContainer div h5{
+    font-family: Geneva;
+    background-color: #d1d1d1;
+    /* width: 30px; */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.fourthPageContainer div p{
+    font-family: Geneva;
+    background-color: #d1d1d1;
+    text-align: center;
+    color: #39563F;
+    font-size: 20px;
 }
