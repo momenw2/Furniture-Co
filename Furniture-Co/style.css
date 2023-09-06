@@ -184,3 +184,66 @@ header{
     background-color: #d1d1d1;
     color: #39563F;
 }
+
+.thrid-page{
+    margin: 100px 0px;
+    width: 100%;
+    height: 580px;
+}
+
+.thrid-page h3{
+    font-family: Geneva;
+    font-size: 90px;
+    text-align: center;
+    color: #FFF;
+}
+
+.thrid-page p{
+    font-family: Geneva;
+    color: #FFF;
+    text-align: center;
+
+}
+
+.thridPageContainer{
+    display: flex;
+    height: 90%;
+}
+
+.thridPageContainer div{
+    width: 25%;
+    background-color: #d1d1d1;
+    margin: 120px 25px;
+    border-radius: 12px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    
+}
+
+.thridPageContainer img{
+    background-color: #d1d1d1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 30px;
+}
+
+.thridPageContainer h4{
+    text-align: center;
+    margin: 12px 0px;
+    background-color: #d1d1d1;
+    color: rgb(26, 26, 26);
+    font-family: Geneva;
+    margin-top: 12%;
+}
+
+.thridPageContainer p{
+    background-color: #d1d1d1;
+    color: rgb(26, 26, 26);
+    font-family: Geneva;
+    margin-top: 20px;
+}
