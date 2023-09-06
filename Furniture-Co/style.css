@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@300&family=Inter:wght@200&display=swap');
+@import url('https://fonts.cdnfonts.com/css/geneva');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #39563F;
+}
+
+li, a, button{
+    color: #FFF;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20%;
+}
+
+.logo{
+    color: #FFF;
+    font-family: Genos;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.nav-ul{
+    list-style: none;
+}
+
+.nav-ul li{
+    display: inline;
+    padding: 0px 20px;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.nav-ul li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-ul li a:hover{
+    color: rgb(187, 144, 92);
+}
+
+.nav-button{
+    border: none;
+    background-color: #162318;
+    padding: 9px 25px;
+    border-radius: 50px;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-button:hover{
+    color: rgb(187, 144, 92);
+}
+
+
+
+.first-page{
+    display: flex;
+    margin: 100px 0px;
+    height: 580px;
+}
+
+
+
+.first-page-left{
+    width: 50%;
+    padding: 0px 40px;
+    padding-left: 90px;
+}
+
+.first-page-left h1{
+    color: #C3AA67;
+    font-family: Geneva;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 72px;
+}
+
+.first-page-left p{
+    color: #FFF;
+    font-family: Geneva;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 202.35%;
+    width: 65%;
+    line-height: 2.2em;
+    word-spacing: 4px;
+}
+.first-page-right{
+    width: 50%;
+    padding-bottom: 140px;
+}
+
+.first-page-right img{
+    height: auto;
+    border-radius: 800px;
+    /* border: 0px solid #000; */
+    background: #C3AA67;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 580px;
+    height: 580px;
+    border-radius: 50%;   
+}
